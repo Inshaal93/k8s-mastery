@@ -14,4 +14,4 @@ target/
 .idea/
 *.iml
 
-.terraform
+.terraform/
