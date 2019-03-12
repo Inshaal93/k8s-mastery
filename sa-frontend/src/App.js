@@ -22,8 +22,9 @@ class App extends Component {
     analyzeSentence() {
         fetch('http://localhost:8080/greeting', {
         })
-            // .then(response => response.json())
-            // .then(data => this.setState(data));
+        .then(response => response.json())
+        .then(json => console.log(json))
+
     }
 
     onEnterPress = e => {
